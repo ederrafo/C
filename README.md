@@ -26,3 +26,8 @@ Otros parametros:
   "-Wall" nos mostrará todos los avisos que produzca el compilador, no solamente los errores. Los avisos nos indican dónde y/o porqué podría surgir algún error en nuestro programa.
   "-pedantic" nos aporta más información sobre los errores y los avisos mostrados por GCC.
 ```
+
+void * : puntero nulo
+size_t is an unsigned integer type of at least 16 bit (entero sin signo es positivo)
+size_t es un tipo de dato, representa el tamano de un obj.
+Por ejemplo si tu tienes un 'char var[8]' al hacer un sizeof() de esa variable te devolverá un valor tipo size_t  que será igual a 8.
